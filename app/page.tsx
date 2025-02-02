@@ -8,7 +8,7 @@ import Contact from '@//components/contact'
 
 export default function Portfolio() {
   return (
-    <main className='w-full flex flex-col justify-center items-center'>
+    <main className='w-full h-auto flex flex-col justify-center items-center cursor-default'>
       <Navbar />
       <Home />
       <About />
