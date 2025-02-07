@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 export default function NavBar() {
   
   return (
-    <nav className='text-white lg:w-[1440px] bg-[#151925] h-auto flex flex-row justify-between lg:px-[70px]'>
+    <nav className='text-white w-full lg:w-[1440px] bg-[#151925] h-auto flex flex-row justify-between lg:px-[70px] fixed top-0 z-50'>
         <div className='text-[24px] font-extrabold font-sen flex flex-row'>Portfolio.</div>
         <div className='flex flex-row text-[20px] font-medium gap-8'>
             <Link to="home" smooth={true} duration={800} className='hover:text-[#01EEFF] cursor-pointer'>Home</Link>
