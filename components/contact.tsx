@@ -2,6 +2,7 @@
 import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
     const validationSchema = Yup.object({
@@ -18,6 +19,7 @@ export default function Contact() {
         email: '',
         message: '',
     };
+    
     const handleSubmit = (
         values: {
             firstname: string;
@@ -26,12 +28,32 @@ export default function Contact() {
             email: string;
             message: string;
         },
-        { resetForm }: { resetForm: () => void}
+        { resetForm }: { resetForm: () => void }
     ) => {
-        console.log('Form Data: ', values);
-        alert('Message sent successfully');
-        resetForm();
-    }
+        const serviceId = 'service_d40xauf'; // Replace with your EmailJS service ID
+        const templateId = 'template_7ed65sj'; // Replace with your EmailJS template ID
+        const userId = 'your_user_id'; // Replace with your EmailJS public key
+
+        const templateParams = {
+            firstname: values.firstname,
+            lastname: values.lastname,
+            phone: values.phone,
+            email: values.email,
+            message: values.message,
+        };
+
+        emailjs
+            .send(serviceId, templateId, templateParams, userId)
+            .then((response) => {
+                console.log('Email sent successfully:', response.text);
+                alert('Message sent successfully');
+                resetForm();
+            })
+            .catch((error) => {
+                console.error('Failed to send email:', error);
+                alert('Failed to send message.');
+            });
+    };
     return (
         <section id='contact' className='flex flex-col items-center bg-[#151925] lg:w-[1440px] lg:h-[842px]'>
             <div className='text-white lg:text-[42px] mt-10'>
