@@ -32,7 +32,7 @@ export default function Contact() {
     ) => {
         const serviceId = 'service_d40xauf'; // Replace with your EmailJS service ID
         const templateId = 'template_7ed65sj'; // Replace with your EmailJS template ID
-        const userId = 'your_user_id'; // Replace with your EmailJS public key
+        const userId = '67Ebnw9bEgZmZoPwq'; // Replace with your EmailJS public key
 
         const templateParams = {
             firstname: values.firstname,
