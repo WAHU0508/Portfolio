@@ -32,7 +32,7 @@ export default function Home() {
     }, []);
 
     return (
-        <section id="home" className="bg-[#151925] text-white flex flex-row justify-center items-center lg:w-[1440px] h-auto lg:pr-[70px] lg:pl-[70px] pt-10 pb-10">
+        <section id="home" className="bg-[#151925] text-white flex flex-row justify-center items-center w-full h-auto lg:w-[1440px] lg:h-[842px] lg:pl-[70px] pt-10 pb-10">
             <div className=' flex justify-center items-center relative lg:w-[650px] lg:h-[700px]'>
                 <div className='absolute border lg:w-[537px] lg:h-[426px] border-[#01EEFF] bg-[#01EEFF] rounded-full'></div>
                 <div className='absolute border lg:w-[537px] lg:h-[426px] border-[#01EEFF] bg-[#01EEFF] rounded-full blur-[30px]'></div>
