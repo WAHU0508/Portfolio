@@ -45,11 +45,11 @@ export default function Home() {
                 />        
             </div>
             <div className='lg:w-[650] lg:h-[700px] lg:p-10 flex flex-col'>
-                <p className='lg:text-[32px] font-black'>Hello it's me</p>
+                <p className='lg:text-[32px] font-black'>Hello it&apos;s me</p>
                 <p className='lg:text-[60px] font-black'>Sharon Gikenye</p>
-                <p className='lg:text-[32px] font-black'>And I'm a <span className='text-[#01EEFF]'>{displayedText}</span></p>
+                <p className='lg:text-[32px] font-black'>And I&apos;m a <span className='text-[#01EEFF]'>{displayedText}</span></p>
                 <p className='lg:text-[24px] mt-4'>I specialize in building scalable
-                    web applications and intuitive user experiences. I'm passionate about
+                    web applications and intuitive user experiences. I&apos;m passionate about
                     turning ideas into impactful digital solutions using technologies such
                     as React.js, Next.js, Node.js, Django, Flask and python.
                 </p>
