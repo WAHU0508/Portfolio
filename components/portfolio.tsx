@@ -19,6 +19,7 @@ export default function Contact() {
                         src={bucksBuddy}
                         width={374}
                         height={251}
+                        alt="Bucks Buddy"
                         className='rounded-[15px]'
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-[rgba(1,238,255,0.57)] to-[rgba(33,33,33,0.1938)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-[15px] flex flex-col items-center">
@@ -36,6 +37,7 @@ export default function Contact() {
                                 src={externalLink}
                                 width={27}
                                 height={25}
+                                alt="go to"
                             />
                         </div>
                     </div>
@@ -46,6 +48,7 @@ export default function Contact() {
                         width={374}
                         height={251}
                         className='rounded-[15px]'
+                        alt="Suscriptly"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-[rgba(1,238,255,0.57)] to-[rgba(33,33,33,0.1938)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-[15px] flex flex-col items-center">
                         <h2 className="text-white font-bold text-[24px] leading-[29px] text-center">
@@ -62,6 +65,7 @@ export default function Contact() {
                                 src={externalLink}
                                 width={27}
                                 height={25}
+                                alt="Go to"
                             />
                         </div>
                     </div>
@@ -73,6 +77,7 @@ export default function Contact() {
                         width={374}
                         height={251}
                         className='rounded-[15px]'
+                        alt="Moringa Box"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-[rgba(1,238,255,0.57)] to-[rgba(33,33,33,0.1938)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-[15px] flex flex-col items-center">
                         <h2 className="text-white font-bold text-[24px] leading-[29px] text-center">
@@ -88,6 +93,7 @@ export default function Contact() {
                                 src={externalLink}
                                 width={27}
                                 height={25}
+                                alt="Go to"
                             />
                         </div>
                     </div>
@@ -99,6 +105,7 @@ export default function Contact() {
                         width={374}
                         height={251}
                         className='rounded-[15px]'
+                        alt="Witz"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-[rgba(1,238,255,0.57)] to-[rgba(33,33,33,0.1938)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-[15px] flex flex-col items-center">
                         <h2 className="text-white font-bold text-[24px] leading-[29px] text-center">
@@ -113,6 +120,7 @@ export default function Contact() {
                                 src={externalLink}
                                 width={27}
                                 height={25}
+                                alt="Go to"
                             />
                         </div>
                     </div>
